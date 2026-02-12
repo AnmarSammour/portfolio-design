@@ -1,0 +1,73 @@
+{
+    "skills": [
+        "Branding & Identity",
+        "Social Media Design",
+        "Icon Design",
+        "Print Design",
+        "UI/UX Design",
+        "Photo Editing",
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Adobe InDesign"
+    ],
+    "contactLinks": [
+        {
+            "nameKey": "contact.email",
+            "iconType": "email",
+            "url": "mailto:anmarsammour@gmail.com",
+            "detail": "anmarsammour@gmail.com"
+        },
+        {
+            "nameKey": "contact.whatsapp",
+            "iconType": "whatsapp",
+            "url": "https://wa.me/%2B970595351929",
+            "detail": "+970 59 535 1929"
+        },
+        {
+            "nameKey": "contact.linkedin",
+            "iconType": "linkedin",
+            "url": "https://www.linkedin.com/in/anmarsammour",
+            "detail": "Anmar Sammour"
+        },
+        {
+            "nameKey": "contact.behance",
+            "iconType": "behance",
+            "url": "https://www.behance.net/anmarsammour",
+            "detail": "Portfolio"
+        }
+    ],
+    "freelanceLinks": [
+        {
+            "nameKey": "contact.mostaql",
+            "url": "https://mostaql.com/u/Anmar_Sammour"
+        },
+        {
+            "nameKey": "contact.khamsat",
+            "url": "https://khamsat.com/user/anmarsammour"
+        },
+        {
+            "nameKey": "contact.upwork",
+            "url": "https://www.upwork.com/freelancers/~01b9de6b268a92452c"
+        },
+        {
+            "nameKey": "contact.baaeed",
+            "url": "https://baaeed.com/u/Anmar_Sammour"
+        },
+        {
+            "nameKey": "contact.freelancer",
+            "url": "https://www.freelancer.com/u/anmarsammour2"
+        }
+    ],
+    "diplomaImages": [
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png",
+        "10.png",
+        "11.png"
+    ]
+}

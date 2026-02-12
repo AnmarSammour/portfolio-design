@@ -1,0 +1,290 @@
+[
+    {
+        "id": "logo1",
+        "category": "logos",
+        "title": {
+            "en": "Brand Logo A",
+            "ar": "شعار العلامة A"
+        },
+        "description": {
+            "en": "Modern logo design for a tech startup.",
+            "ar": "تصميم شعار عصري لشركة تقنية ناشئة."
+        },
+        "images": [
+            "logo1.png"
+        ],
+        "featured": true
+    },
+    {
+        "id": "logo2",
+        "category": "logos",
+        "title": {
+            "en": "Brand Logo B",
+            "ar": "شعار العلامة B"
+        },
+        "description": {
+            "en": "Minimalist logo for a coffee shop.",
+            "ar": "شعار بسيط لمقهى."
+        },
+        "images": [
+            "logo2.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "logo3",
+        "category": "logos",
+        "title": {
+            "en": "Brand Logo C",
+            "ar": "شعار العلامة C"
+        },
+        "description": {
+            "en": "Typography based logo.",
+            "ar": "شعار يعتمد على الطباعة."
+        },
+        "images": [
+            "logo3.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "sm1",
+        "category": "social",
+        "title": {
+            "en": "Instagram Campaign",
+            "ar": "حملة انستغرام"
+        },
+        "description": {
+            "en": "Series of posts for a summer sale.",
+            "ar": "سلسلة منشورات لتخفيضات الصيف."
+        },
+        "images": [
+            "sm1.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "sm2",
+        "category": "social",
+        "title": {
+            "en": "Facebook Ads",
+            "ar": "إعلانات فيسبوك"
+        },
+        "description": {
+            "en": "High converting ad creatives.",
+            "ar": "تصاميم إعلانية عالية التحويل."
+        },
+        "images": [
+            "sm2.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "sm3",
+        "category": "social",
+        "title": {
+            "en": "Story Templates",
+            "ar": "قوالب ستوري"
+        },
+        "description": {
+            "en": "Customizable story templates.",
+            "ar": "قوالب ستوري قابلة للتخصيص."
+        },
+        "images": [
+            "sm3.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "icon1",
+        "category": "icons",
+        "title": {
+            "en": "App Icons",
+            "ar": "أيقونات تطبيق"
+        },
+        "description": {
+            "en": "Set of linear icons.",
+            "ar": "مجموعة أيقونات خطية."
+        },
+        "images": [
+            "icon1.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "icon2",
+        "category": "icons",
+        "title": {
+            "en": "Web Icons",
+            "ar": "أيقونات ويب"
+        },
+        "description": {
+            "en": "Flat style icons for web.",
+            "ar": "أيقونات مسطحة للويب."
+        },
+        "images": [
+            "icon2.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "icon3",
+        "category": "icons",
+        "title": {
+            "en": "Map Icons",
+            "ar": "أيقونات خريطة"
+        },
+        "description": {
+            "en": "Custom map markers.",
+            "ar": "علامات خريطة مخصصة."
+        },
+        "images": [
+            "icon3.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "brand1",
+        "category": "branding",
+        "title": {
+            "en": "Corporate Identity",
+            "ar": "هوية شركات"
+        },
+        "description": {
+            "en": "Full identity package.",
+            "ar": "باقة هوية كاملة."
+        },
+        "images": [
+            "brand1.png"
+        ],
+        "featured": true
+    },
+    {
+        "id": "brand2",
+        "category": "branding",
+        "title": {
+            "en": "Retail Branding",
+            "ar": "هوية متجر"
+        },
+        "description": {
+            "en": "In-store branding elements.",
+            "ar": "عناصر الهوية داخل المتجر."
+        },
+        "images": [
+            "brand2.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "brand3",
+        "category": "branding",
+        "title": {
+            "en": "Event Branding",
+            "ar": "هوية فعاليات"
+        },
+        "description": {
+            "en": "Branding for a conference.",
+            "ar": "هوية لمؤتمر."
+        },
+        "images": [
+            "brand3.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "print1",
+        "category": "print",
+        "title": {
+            "en": "Magazine Layout",
+            "ar": "تخطيط مجلة"
+        },
+        "description": {
+            "en": "Editorial design for a lifestyle mag.",
+            "ar": "تصميم تحريري لمجلة لايف ستايل."
+        },
+        "images": [
+            "print1.png"
+        ],
+        "featured": true
+    },
+    {
+        "id": "print2",
+        "category": "print",
+        "title": {
+            "en": "Brochure",
+            "ar": "بروشور"
+        },
+        "description": {
+            "en": "Tri-fold brochure design.",
+            "ar": "تصميم بروشور ثلاثي الطيات."
+        },
+        "images": [
+            "print2.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "print3",
+        "category": "print",
+        "title": {
+            "en": "Flyer",
+            "ar": "فلاير"
+        },
+        "description": {
+            "en": "Event promotion flyer.",
+            "ar": "فلاير ترويج لحدث."
+        },
+        "images": [
+            "print3.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "ui1",
+        "category": "ui",
+        "title": {
+            "en": "E-commerce App",
+            "ar": "تطبيق تجارة إلكترونية"
+        },
+        "description": {
+            "en": "UI design for a shopping app.",
+            "ar": "تصميم واجهة لتطبيق تسوق."
+        },
+        "images": [
+            "ui1.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "ui2",
+        "category": "ui",
+        "title": {
+            "en": "Dashboard",
+            "ar": "لوحة تحكم"
+        },
+        "description": {
+            "en": "Analytics dashboard UI.",
+            "ar": "واجهة لوحة تحكم تحليلات."
+        },
+        "images": [
+            "ui2.png"
+        ],
+        "featured": false
+    },
+    {
+        "id": "ui3",
+        "category": "ui",
+        "title": {
+            "en": "Landing Page",
+            "ar": "صفحة هبوط"
+        },
+        "description": {
+            "en": "Marketing landing page.",
+            "ar": "صفحة هبوط تسويقية."
+        },
+        "images": [
+            "ui3.png"
+        ],
+        "featured": false
+    }
+]

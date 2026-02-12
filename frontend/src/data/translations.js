@@ -1,0 +1,168 @@
+const translations = {
+  en: {
+    nav: {
+      home: "Home",
+      about: "About",
+      diploma: "Diploma",
+      portfolio: "Portfolio",
+      allProjects: "All Projects",
+      contact: "Contact",
+    },
+    hero: {
+      name: "Anmar Sammour",
+      tagline: "Turning ideas into stunning visual stories that captivate and inspire.",
+      myWork: "My Work",
+      contactMe: "Contact Me",
+      viewPortfolio: "View Portfolio",
+    },
+    about: {
+      title: "About Me",
+      description: "In this section I introduce myself and my design journey.",
+      content: "I am Anmar Sammour, a passionate graphic designer based in Gaza. I love creating visual identities that speak to the audience. My style is clean, modern, and detail-oriented.",
+      skillsTitle: "Key Skills",
+    },
+    diploma: {
+      title: "Graphic Design & Freelancing Diploma",
+      institution: "Challenge to Change",
+      description: "Challenge to Change is a Swiss non-profit that catalyses positive change for marginalised women in the Arab world, especially those living in difficult conditions or affected by conflict. Supports women with life and work skills so they can change their lives and build better futures.",
+      support: "Supported by Arab Fund",
+      learnedTitle: "What I learned:",
+      learnedItems: [
+        "Social media design",
+        "Visual identity design",
+        "Logo design",
+        "Print design"
+      ],
+      carouselCaption: "I created this 10-post campaign to introduce the Diploma and Challenge to Change.",
+    },
+    portfolio: {
+      title: "My Work",
+      description: "A selection of my recent projects.",
+      viewMore: "View More",
+      viewProject: "View Project",
+      searchPlaceholder: "Search projects...",
+      noResults: "No projects found matching your criteria.",
+      categories: {
+        all: "All",
+        logos: "Logos",
+        social: "Social Media",
+        icons: "Icons",
+        branding: "Branding",
+        print: "Print",
+        mockups: "Mockups",
+        posters: "Posters",
+        ui: "UI Design",
+      }
+    },
+    contact: {
+      title: "Contact Me",
+      description: "If you'd like to work together, send me a message or reach me on these platforms.",
+      freelanceProfiles: "Freelance Profiles",
+      email: "Email",
+      whatsapp: "WhatsApp",
+      linkedin: "LinkedIn",
+      behance: "Behance – Portfolio",
+      mostaql: "Mostaql",
+      khamsat: "Khamsat",
+      upwork: "Upwork",
+      baaeed: "Baaeed",
+      freelancer: "Freelancer",
+    },
+    footer: {
+      copyright: "Designed & coded by Anmar Sammour",
+    },
+    projectDetails: {
+      backToPortfolio: "Back to Portfolio",
+      aboutProject: "About this project",
+      toolsUsed: "Tools Used",
+      mockups: "Mockups",
+      artworkOnly: "Artwork Only",
+      projectMockups: "Project Mockups",
+      artwork: "Artwork",
+    }
+  },
+  ar: {
+    nav: {
+      home: "الرئيسية",
+      about: "من أنا",
+      diploma: "الدبلومة",
+      portfolio: "أعمالي",
+      allProjects: "كل المشاريع",
+      contact: "تواصل معي",
+    },
+    hero: {
+      name: "أنمار سمور",
+      tagline: "أحوّل الأفكار إلى قصص بصرية مذهلة تأسر وتُلهم.",
+      myWork: "أعمالي",
+      contactMe: "تواصل معي",
+      viewPortfolio: "شاهد أعمالي",
+    },
+    about: {
+      title: "من أنا",
+      description: "في هذا القسم أعرف بنفسي ورحلتي في التصميم.",
+      content: "أنا أنمار سمور، مصممة جرافيك شغوفة مقيمة في غزة. أحب إنشاء هويات بصرية تخاطب الجمهور. أسلوبي نظيف وعصري ويهتم بالتفاصيل.",
+      skillsTitle: "المهارات الرئيسية",
+    },
+    diploma: {
+      title: "دبلوم التصميم الجرافيكي والعمل الحر",
+      institution: "تحدي للتغيير",
+      description: "تحدي للتغيير هي مؤسسة سويسرية غير ربحية تحفز التغيير الإيجابي للنساء المهمشات في العالم العربي، وخاصة اللواتي يعشن في ظروف صعبة أو متأثرات بالنزاع. تدعم النساء بمهارات الحياة والعمل حتى يتمكنَّ من تغيير حياتهن وبناء مستقبل أفضل.",
+      support: "بدعم من الصندوق العربي",
+      learnedTitle: "ما تعلمته:",
+      learnedItems: [
+        "تصميم السوشيال ميديا",
+        "تصميم الهوية البصرية",
+        "تصميم الشعارات",
+        "تصميم المطبوعات"
+      ],
+      carouselCaption: "لقد أنشأت هذه الحملة المكونة من 10 منشورات للتعريف بالدبلوم ومؤسسة تحدي للتغيير.",
+    },
+    portfolio: {
+      title: "أعمالي",
+      description: "مجموعة مختارة من مشاريعي الحديثة.",
+      viewMore: "عرض المزيد",
+      viewProject: "عرض المشروع",
+      searchPlaceholder: "ابحث عن مشاريع...",
+      noResults: "لا توجد مشاريع تطابق بحثك.",
+      categories: {
+        all: "الكل",
+        logos: "شعارات",
+        social: "سوشيال ميديا",
+        icons: "أيقونات",
+        branding: "هويات بصرية",
+        print: "مطبوعات",
+        mockups: "موك أب",
+        posters: "ملصقات",
+        ui: "واجهات مستخدم",
+      }
+    },
+    contact: {
+      title: "تواصل معي",
+      description: "إذا كنت ترغب في العمل معي، أرسل لي رسالة أو تواصل معي عبر هذه المنصات.",
+      freelanceProfiles: "حسابات العمل الحر",
+      email: "البريد الإلكتروني",
+      whatsapp: "واتساب",
+      linkedin: "لينكدإن",
+      behance: "بيهانس – معرض الأعمال",
+      mostaql: "مستقلّ",
+      khamsat: "خمسات",
+      upwork: "Upwork",
+      baaeed: "بعيد",
+      freelancer: "Freelancer",
+    },
+    footer: {
+      copyright: "تصميم وتطوير أنمار سمور",
+    },
+    projectDetails: {
+      backToPortfolio: "العودة للمعرض",
+      aboutProject: "عن هذا المشروع",
+      toolsUsed: "الأدوات المستخدمة",
+      mockups: "الموك أب",
+      artworkOnly: "العمل فقط",
+      projectMockups: "موك أب المشروع",
+      artwork: "العمل الفني",
+    }
+  }
+};
+
+export default translations;

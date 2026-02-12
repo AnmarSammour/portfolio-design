@@ -1,0 +1,41 @@
+:root {
+  /* Colors - Updated Palette */
+  --bg-color: #FAF9F6;
+  /* Off-white / Cream */
+  --text-color: #000000;
+  /* Pure Black */
+  --accent-color: #161E54;
+  /* Deep Blue - Main Accent */
+  --accent-hover: #0F1235;
+  --secondary-text: #333333;
+  --card-bg: #FFFFFF;
+  --border-color: #E5E5E5;
+  --hero-bg: #000000;
+  /* Black hero background */
+
+  /* Spacing - Proper margins for balanced layout */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1.5rem;
+  --spacing-md: 2.5rem;
+  --spacing-lg: 5rem;
+  --spacing-xl: 8rem;
+
+  /* Typography - Poppins (softer, friendlier) */
+  --font-en: 'Poppins', sans-serif;
+  --font-ar: 'Poppins', sans-serif;
+  /* Poppins supports Arabic */
+
+  /* Transitions */
+  --transition-speed: 0.3s;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-en);
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+body[dir="rtl"] {
+  font-family: var(--font-ar);
+}
