@@ -16,7 +16,7 @@ const Home = () => {
   const featuredProjects = projects.filter(p => p.featured).slice(0, 6);
 
   // Diploma images
-  const diplomaImages = Array.from({ length: 10 }, (_, i) => `${i + 2}.png`);
+  const diplomaImages = Array.from({ length: 10 }, (_, i) => `c2c/post_${String(i + 1).padStart(2, '0')}.png`);
 
   // Skills for About section
   const skills = [
@@ -60,12 +60,14 @@ const Home = () => {
       <section id="hero" className="hero">
         <div className="container hero-content">
           <div className="hero-visual">
-            {/* Abstract design-related shapes */}
-            <div className="abstract-shapes-container">
-              <div className="shape shape-1"></div>
-              <div className="shape shape-2"></div>
-              <div className="shape shape-3"></div>
-              <div className="design-grid"></div>
+            {/* Profile Image */}
+            <div className="hero-image-container">
+              <img 
+                src="http://localhost:5000/images/anmar.png" 
+                alt="Anmar Sammour" 
+                className="hero-profile-img"
+                onError={(e) => {e.target.style.display='none'}}
+              />
             </div>
           </div>
 

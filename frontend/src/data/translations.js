@@ -18,7 +18,7 @@ const translations = {
     about: {
       title: "About Me",
       description: "In this section I introduce myself and my design journey.",
-      content: "I am Anmar Sammour, a passionate graphic designer based in Gaza. I love creating visual identities that speak to the audience. My style is clean, modern, and detail-oriented.",
+      content: "I am Anmar Sammour, a passionate graphic designer based in Palestine. I love creating visual identities that speak to the audience. My style is clean, modern, and detail-oriented.",
       skillsTitle: "Key Skills",
     },
     diploma: {
@@ -79,6 +79,11 @@ const translations = {
       artworkOnly: "Artwork Only",
       projectMockups: "Project Mockups",
       artwork: "Artwork",
+      flip: "Flip",
+      scroll: "Scroll",
+      rotateCard: "Rotate Card",
+      gallery: "Project Details",
+      guidelines: "Brand Guidelines",
     }
   },
   ar: {
@@ -100,7 +105,7 @@ const translations = {
     about: {
       title: "من أنا",
       description: "في هذا القسم أعرف بنفسي ورحلتي في التصميم.",
-      content: "أنا أنمار سمور، مصممة جرافيك شغوفة مقيمة في غزة. أحب إنشاء هويات بصرية تخاطب الجمهور. أسلوبي نظيف وعصري ويهتم بالتفاصيل.",
+      content: "أنا أنمار سمور، مصممة جرافيك شغوفة مقيمة في فلسطين. أحب إنشاء هويات بصرية تخاطب الجمهور. أسلوبي نظيف وعصري ويهتم بالتفاصيل.",
       skillsTitle: "المهارات الرئيسية",
     },
     diploma: {
@@ -161,6 +166,11 @@ const translations = {
       artworkOnly: "العمل فقط",
       projectMockups: "موك أب المشروع",
       artwork: "العمل الفني",
+      flip: "قلب",
+      scroll: "تمرير",
+      rotateCard: "اقلب البطاقة",
+      gallery: "تفاصيل المشروع",
+      guidelines: "دليل الهوية",
     }
   }
 };

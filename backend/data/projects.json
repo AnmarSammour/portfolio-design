@@ -1,290 +1,200 @@
 [
     {
-        "id": "logo1",
+        "id": "ice-logo",
         "category": "logos",
         "title": {
-            "en": "Brand Logo A",
-            "ar": "شعار العلامة A"
+            "en": "Ice Logo",
+            "ar": "شعار Ice"
         },
         "description": {
-            "en": "Modern logo design for a tech startup.",
-            "ar": "تصميم شعار عصري لشركة تقنية ناشئة."
+            "en": "Modern logo design for Ice brand.",
+            "ar": "تصميم شعار عصري لعلامة Ice."
         },
         "images": [
-            "logo1.png"
+            "logo/ice/ice-logo.png"
         ],
+        "displayType": "standard",
+        "detailsType": "standard",
         "featured": true
     },
     {
-        "id": "logo2",
-        "category": "logos",
-        "title": {
-            "en": "Brand Logo B",
-            "ar": "شعار العلامة B"
-        },
-        "description": {
-            "en": "Minimalist logo for a coffee shop.",
-            "ar": "شعار بسيط لمقهى."
-        },
-        "images": [
-            "logo2.png"
-        ],
-        "featured": false
-    },
-    {
-        "id": "logo3",
-        "category": "logos",
-        "title": {
-            "en": "Brand Logo C",
-            "ar": "شعار العلامة C"
-        },
-        "description": {
-            "en": "Typography based logo.",
-            "ar": "شعار يعتمد على الطباعة."
-        },
-        "images": [
-            "logo3.png"
-        ],
-        "featured": false
-    },
-    {
-        "id": "sm1",
+        "id": "chat-social",
         "category": "social",
         "title": {
-            "en": "Instagram Campaign",
-            "ar": "حملة انستغرام"
+            "en": "Social Media Chat",
+            "ar": "محادثات التواصل الاجتماعي"
         },
         "description": {
-            "en": "Series of posts for a summer sale.",
-            "ar": "سلسلة منشورات لتخفيضات الصيف."
+            "en": "Social media campaign designs.",
+            "ar": "تصاميم حملات التواصل الاجتماعي."
         },
         "images": [
-            "sm1.png"
+            "chat/chat.png",
+            "chat/chat-apple.png",
+            "chat/chat-blue.png",
+            "chat/chat-grape.png",
+            "chat/chat-lemon.png",
+            "chat/chat-orange.png",
+            "chat/chat-strawberry.png",
+            "chat/chat-zero.png"
         ],
-        "featured": false
-    },
-    {
-        "id": "sm2",
-        "category": "social",
-        "title": {
-            "en": "Facebook Ads",
-            "ar": "إعلانات فيسبوك"
-        },
-        "description": {
-            "en": "High converting ad creatives.",
-            "ar": "تصاميم إعلانية عالية التحويل."
-        },
-        "images": [
-            "sm2.png"
-        ],
-        "featured": false
-    },
-    {
-        "id": "sm3",
-        "category": "social",
-        "title": {
-            "en": "Story Templates",
-            "ar": "قوالب ستوري"
-        },
-        "description": {
-            "en": "Customizable story templates.",
-            "ar": "قوالب ستوري قابلة للتخصيص."
-        },
-        "images": [
-            "sm3.png"
-        ],
-        "featured": false
-    },
-    {
-        "id": "icon1",
-        "category": "icons",
-        "title": {
-            "en": "App Icons",
-            "ar": "أيقونات تطبيق"
-        },
-        "description": {
-            "en": "Set of linear icons.",
-            "ar": "مجموعة أيقونات خطية."
-        },
-        "images": [
-            "icon1.png"
-        ],
-        "featured": false
-    },
-    {
-        "id": "icon2",
-        "category": "icons",
-        "title": {
-            "en": "Web Icons",
-            "ar": "أيقونات ويب"
-        },
-        "description": {
-            "en": "Flat style icons for web.",
-            "ar": "أيقونات مسطحة للويب."
-        },
-        "images": [
-            "icon2.png"
-        ],
-        "featured": false
-    },
-    {
-        "id": "icon3",
-        "category": "icons",
-        "title": {
-            "en": "Map Icons",
-            "ar": "أيقونات خريطة"
-        },
-        "description": {
-            "en": "Custom map markers.",
-            "ar": "علامات خريطة مخصصة."
-        },
-        "images": [
-            "icon3.png"
-        ],
-        "featured": false
-    },
-    {
-        "id": "brand1",
-        "category": "branding",
-        "title": {
-            "en": "Corporate Identity",
-            "ar": "هوية شركات"
-        },
-        "description": {
-            "en": "Full identity package.",
-            "ar": "باقة هوية كاملة."
-        },
-        "images": [
-            "brand1.png"
-        ],
+        "displayType": "standard",
+        "detailsType": "showcase",
         "featured": true
     },
     {
-        "id": "brand2",
-        "category": "branding",
+        "id": "terraforge-logo",
+        "category": "logos",
         "title": {
-            "en": "Retail Branding",
-            "ar": "هوية متجر"
+            "en": "Terraforge Logo",
+            "ar": "شعار Terraforge"
         },
         "description": {
-            "en": "In-store branding elements.",
-            "ar": "عناصر الهوية داخل المتجر."
+            "en": "Strong and industrial logo for Terraforge.",
+            "ar": "شعار قوي وصناعي لـ Terraforge."
         },
         "images": [
-            "brand2.png"
+            "logo/terraforge/terraforge-logo.png"
         ],
-        "featured": false
-    },
-    {
-        "id": "brand3",
-        "category": "branding",
-        "title": {
-            "en": "Event Branding",
-            "ar": "هوية فعاليات"
-        },
-        "description": {
-            "en": "Branding for a conference.",
-            "ar": "هوية لمؤتمر."
-        },
-        "images": [
-            "brand3.png"
-        ],
-        "featured": false
-    },
-    {
-        "id": "print1",
-        "category": "print",
-        "title": {
-            "en": "Magazine Layout",
-            "ar": "تخطيط مجلة"
-        },
-        "description": {
-            "en": "Editorial design for a lifestyle mag.",
-            "ar": "تصميم تحريري لمجلة لايف ستايل."
-        },
-        "images": [
-            "print1.png"
-        ],
+        "displayType": "standard",
+        "detailsType": "standard",
         "featured": true
     },
     {
-        "id": "print2",
+        "id": "tulip-logo",
+        "category": "logos",
+        "title": {
+            "en": "Tulip Logo",
+            "ar": "شعار Tulip"
+        },
+        "description": {
+            "en": "Elegant logo design for Tulip.",
+            "ar": "تصميم شعار أنيق لـ Tulip."
+        },
+        "images": [
+            "logo/tulip/tulip logo.png"
+        ],
+        "displayType": "standard",
+        "detailsType": "standard",
+        "featured": false
+    },
+    {
+        "id": "verde-logo",
+        "category": "logos",
+        "title": {
+            "en": "Verde Logo",
+            "ar": "شعار Verde"
+        },
+        "description": {
+            "en": "Nature inspired logo for Verde.",
+            "ar": "شعار مستوحى من الطبيعة لـ Verde."
+        },
+        "images": [
+            "logo/verde/verde-logo.png"
+        ],
+        "displayType": "standard",
+        "detailsType": "standard",
+        "featured": false
+    },
+    {
+        "id": "terraforge-print-scroll",
         "category": "print",
         "title": {
-            "en": "Brochure",
-            "ar": "بروشور"
+            "en": "Terraforge Long Print",
+            "ar": "مطبوعات Terraforge الطويلة"
         },
         "description": {
-            "en": "Tri-fold brochure design.",
-            "ar": "تصميم بروشور ثلاثي الطيات."
+            "en": "Long format print design for Terraforge.",
+            "ar": "تصميم مطبوعات طويل لـ Terraforge."
         },
         "images": [
-            "print2.png"
+            "logo/terraforge/letterhead-terraforge.png"
         ],
+        "displayType": "scroll",
+        "detailsType": "standard",
         "featured": false
     },
     {
-        "id": "print3",
+        "id": "terraforge-print-flip",
         "category": "print",
         "title": {
-            "en": "Flyer",
-            "ar": "فلاير"
+            "en": "Terraforge Cards",
+            "ar": "بطاقات Terraforge"
         },
         "description": {
-            "en": "Event promotion flyer.",
-            "ar": "فلاير ترويج لحدث."
+            "en": "Double sided print design.",
+            "ar": "تصميم مطبوعات مزدوج الوجه."
         },
         "images": [
-            "print3.png"
+            "logo/terraforge/bc front-terraforge.png",
+            "logo/terraforge/bc back-terraforge.png"
         ],
+        "displayType": "flip",
+        "detailsType": "standard",
         "featured": false
     },
     {
-        "id": "ui1",
-        "category": "ui",
+        "id": "verde-branding",
+        "category": "branding",
         "title": {
-            "en": "E-commerce App",
-            "ar": "تطبيق تجارة إلكترونية"
+            "en": "Verde Branding",
+            "ar": "هوية Verde"
         },
         "description": {
-            "en": "UI design for a shopping app.",
-            "ar": "تصميم واجهة لتطبيق تسوق."
+            "en": "Complete branding guidelines for Verde.",
+            "ar": "دليل الهوية الكامل لـ Verde."
         },
         "images": [
-            "ui1.png"
+            "logo/verde/verde-logo.png",
+            "logo/verde/verde-guideline .png"
         ],
+        "displayType": "standard",
+        "detailsType": "guideline",
         "featured": false
     },
     {
-        "id": "ui2",
-        "category": "ui",
+        "id": "ice-branding",
+        "category": "branding",
         "title": {
-            "en": "Dashboard",
-            "ar": "لوحة تحكم"
+            "en": "Ice Branding",
+            "ar": "هوية Ice"
         },
         "description": {
-            "en": "Analytics dashboard UI.",
-            "ar": "واجهة لوحة تحكم تحليلات."
+            "en": "Branding and visual identity for Ice.",
+            "ar": "الهوية البصرية لـ Ice."
         },
         "images": [
-            "ui2.png"
+            "logo/ice/ice-logo.png",
+            "logo/ice/ice-guideline.png"
         ],
+        "displayType": "standard",
+        "detailsType": "guideline",
         "featured": false
     },
     {
-        "id": "ui3",
-        "category": "ui",
+        "id": "tulip-showcase",
+        "category": "branding",
         "title": {
-            "en": "Landing Page",
-            "ar": "صفحة هبوط"
+            "en": "Tulip Showcase",
+            "ar": "عرض Tulip"
         },
         "description": {
-            "en": "Marketing landing page.",
-            "ar": "صفحة هبوط تسويقية."
+            "en": "Visual showcase for Tulip brand.",
+            "ar": "عرض بصري لعلامة Tulip."
         },
         "images": [
-            "ui3.png"
+            "logo/tulip/tulip logo.png",
+            "logo/tulip/tulip_business_cards.png",
+            "logo/tulip/tulip_cake_packaging.png",
+            "logo/tulip/tulip_coffee_cup_bag.png",
+            "logo/tulip/tulip_cupcake_box.png",
+            "logo/tulip/tulip_gift_card.png",
+            "logo/tulip/tulip_mobile_app.png",
+            "logo/tulip/tulip_staff_apparel.png",
+            "logo/tulip/tulip_storefront.png"
         ],
+        "displayType": "standard",
+        "detailsType": "showcase",
         "featured": false
     }
 ]

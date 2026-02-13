@@ -1,137 +1,273 @@
 export const projects = [
-  // Logos
-  {
-    id: 'logo1',
-    category: 'logos',
-    title: { en: 'Brand Logo A', ar: 'شعار العلامة A' },
-    description: { en: 'Modern logo design for a tech startup.', ar: 'تصميم شعار عصري لشركة تقنية ناشئة.' },
-    images: ['logo1.png'],
-    featured: true,
-  },
-  {
-    id: 'logo2',
-    category: 'logos',
-    title: { en: 'Brand Logo B', ar: 'شعار العلامة B' },
-    description: { en: 'Minimalist logo for a coffee shop.', ar: 'شعار بسيط لمقهى.' },
-    images: ['logo2.png'],
-  },
-  {
-    id: 'logo3',
-    category: 'logos',
-    title: { en: 'Brand Logo C', ar: 'شعار العلامة C' },
-    description: { en: 'Typography based logo.', ar: 'شعار يعتمد على الطباعة.' },
-    images: ['logo3.png'],
-  },
-  // Social Media
-  {
-    id: 'sm1',
-    category: 'social',
-    title: { en: 'Instagram Campaign', ar: 'حملة انستغرام' },
-    description: { en: 'Series of posts for a summer sale.', ar: 'سلسلة منشورات لتخفيضات الصيف.' },
-    images: ['sm1.png'],
-  },
-  {
-    id: 'sm2',
-    category: 'social',
-    title: { en: 'Facebook Ads', ar: 'إعلانات فيسبوك' },
-    description: { en: 'High converting ad creatives.', ar: 'تصاميم إعلانية عالية التحويل.' },
-    images: ['sm2.png'],
-  },
-  {
-    id: 'sm3',
-    category: 'social',
-    title: { en: 'Story Templates', ar: 'قوالب توري' },
-    description: { en: 'Customizable story templates.', ar: 'قوالب ستوري قابلة للتخصيص.' },
-    images: ['sm3.png'],
-  },
-  // Icons
-  {
-    id: 'icon1',
-    category: 'icons',
-    title: { en: 'App Icons', ar: 'أيقونات تطبيق' },
-    description: { en: 'Set of linear icons.', ar: 'مجموعة أيقونات خطية.' },
-    images: ['icon1.png'],
-  },
-  {
-    id: 'icon2',
-    category: 'icons',
-    title: { en: 'Web Icons', ar: 'أيقونات ويب' },
-    description: { en: 'Flat style icons for web.', ar: 'أيقونات مسطحة للويب.' },
-    images: ['icon2.png'],
-  },
-  {
-    id: 'icon3',
-    category: 'icons',
-    title: { en: 'Map Icons', ar: 'أيقونات خريطة' },
-    description: { en: 'Custom map markers.', ar: 'علامات خريطة مخصصة.' },
-    images: ['icon3.png'],
-  },
-  // Branding
-  {
-    id: 'brand1',
-    category: 'branding',
-    title: { en: 'Corporate Identity', ar: 'هوية شركات' },
-    description: { en: 'Full identity package.', ar: 'باقة هوية كاملة.' },
-    images: ['brand1.png'],
-    featured: true,
-  },
-  {
-    id: 'brand2',
-    category: 'branding',
-    title: { en: 'Retail Branding', ar: 'هوية متجر' },
-    description: { en: 'In-store branding elements.', ar: 'عناصر الهوية داخل المتجر.' },
-    images: ['brand2.png'],
-  },
-  {
-    id: 'brand3',
-    category: 'branding',
-    title: { en: 'Event Branding', ar: 'هوية فعاليات' },
-    description: { en: 'Branding for a conference.', ar: 'هوية لمؤتمر.' },
-    images: ['brand3.png'],
-  },
-  // Print
-  {
-    id: 'print1',
-    category: 'print',
-    title: { en: 'Magazine Layout', ar: 'تخطيط مجلة' },
-    description: { en: 'Editorial design for a lifestyle mag.', ar: 'تصميم تحريري لمجلة لايف ستايل.' },
-    images: ['print1.png'],
-    featured: true,
-  },
-  {
-    id: 'print2',
-    category: 'print',
-    title: { en: 'Brochure', ar: 'بروشور' },
-    description: { en: 'Tri-fold brochure design.', ar: 'تصميم بروشور ثلاثي الطيات.' },
-    images: ['print2.png'],
-  },
-  {
-    id: 'print3',
-    category: 'print',
-    title: { en: 'Flyer', ar: 'فلاير' },
-    description: { en: 'Event promotion flyer.', ar: 'فلاير ترويج لحدث.' },
-    images: ['print3.png'],
-  },
-  // Mockups, Posters, UI... added as needed following pattern
-  {
-     id: 'ui1',
-     category: 'ui',
-     title: { en: 'E-commerce App', ar: 'تطبيق تجارة إلكترونية' },
-     description: { en: 'UI design for a shopping app.', ar: 'تصميم واجهة لتطبيق تسوق.' },
-     images: ['ui1.png'],
-  },
     {
-     id: 'ui2',
-     category: 'ui',
-     title: { en: 'Dashboard', ar: 'لوحة تحكم' },
-     description: { en: 'Analytics dashboard UI.', ar: 'واجهة لوحة تحكم تحليلات.' },
-     images: ['ui2.png'],
-  },
+        "id": "ice-logo",
+        "category": ["branding", "logos"],
+        "title": {
+            "en": "Ice Logo & Branding",
+            "ar": "شعار وهوية Ice"
+        },
+        "description": {
+            "en": "Modern logo design and visual identity for Ice brand.",
+            "ar": "تصميم شعار عصري وهوية بصرية لعلامة Ice."
+        },
+        "images": [
+            "logo/ice/ice-logo.png",
+            "logo/ice/ice-guideline.png"
+        ],
+        "displayType": "standard",
+        "detailsType": "guideline",
+        "featured": true
+    },
     {
-     id: 'ui3',
-     category: 'ui',
-     title: { en: 'Landing Page', ar: 'صفحة هبوط' },
-     description: { en: 'Marketing landing page.', ar: 'صفحة هبوط تسويقية.' },
-     images: ['ui3.png'],
-  },
+        "id": "chat-social",
+        "category": ["social"],
+        "title": {
+            "en": "Social Media Chat",
+            "ar": "محادثات التواصل الاجتماعي"
+        },
+        "description": {
+            "en": "Social media campaign designs.",
+            "ar": "تصاميم حملات التواصل الاجتماعي."
+        },
+        "imageFit": "contain",
+        "images": [
+            "chat/chat.png",
+            "chat/chat-apple.png",
+            "chat/chat-blue.png",
+            "chat/chat-grape.png",
+            "chat/chat-lemon.png",
+            "chat/chat-orange.png",
+            "chat/chat-strawberry.png",
+            "chat/chat-zero.png"
+        ],
+        "displayType": "standard",
+        "detailsType": "showcase",
+        "featured": true
+    },
+    {
+        "id": "terraforge-branding",
+        "category": ["print", "logos"],
+        "title": {
+            "en": "Terraforge",
+            "ar": "Terraforge"
+        },
+        "description": {
+            "en": "Comprehensive industrial branding for Terraforge. Includes logo, stationery, and marketing materials.",
+            "ar": "هوية صناعية شاملة لـ Terraforge. تشمل الشعار، القرطاسية، والمواد التسويقية."
+        },
+        "images": [
+            "logo/terraforge/terraforge-logo.png",
+            "logo/terraforge/letterhead-terraforge.png",
+            "logo/terraforge/bc front-terraforge.png",
+            "logo/terraforge/bc back-terraforge.png",
+            "logo/terraforge/brochure-terraforge.png",
+            "logo/terraforge/agenda-terraforge.png",
+            "logo/terraforge/envelope front-terraforge.png",
+            "logo/terraforge/envelope back-terraforge.png",
+            "logo/terraforge/flyer-terraforge.png",
+            "logo/terraforge/notbook-terraforge.png"
+        ],
+        "displayType": "standard", 
+        "detailsType": "stationery", 
+        "stationeryItems": [
+            {
+                "type": "standard",
+                "title": { "en": "Logo", "ar": "الشعار" },
+                "src": "logo/terraforge/terraforge-logo.png"
+            },
+            {
+                "type": "scroll",
+                "title": { "en": "Letterhead", "ar": "الورق الرسمي" },
+                "src": "logo/terraforge/letterhead-terraforge.png"
+            },
+            {
+                "type": "flip",
+                "title": { "en": "Business Card", "ar": "بطاقة العمل" },
+                "front": "logo/terraforge/bc front-terraforge.png",
+                "back": "logo/terraforge/bc back-terraforge.png"
+            },
+            {
+                "type": "flip",
+                "title": { "en": "Envelope", "ar": "الظرف" },
+                "front": "logo/terraforge/envelope front-terraforge.png",
+                "back": "logo/terraforge/envelope back-terraforge.png"
+            },
+            {
+                "type": "standard",
+                "title": { "en": "Brochure", "ar": "بروشور" },
+                "src": "logo/terraforge/brochure_terraforge.png"
+            },
+            {
+                "type": "standard",
+                "title": { "en": "Agenda", "ar": "أجندة" },
+                "src": "logo/terraforge/agenda-terraforge.png"
+            },
+            {
+                "type": "standard",
+                "title": { "en": "Flyer", "ar": "فلاير" },
+                "src": "logo/terraforge/flyer-terraforge.png"
+            },
+             {
+                "type": "standard",
+                "title": { "en": "Notebook", "ar": "دفتر ملاحظات" },
+                "src": "logo/terraforge/notbook-terraforge.png"
+            }
+        ],
+        "featured": true
+    },
+    {
+        "id": "tulip-showcase",
+        "category": ["branding", "logos"],
+        "title": {
+            "en": "Tulip Showcase",
+            "ar": "عرض Tulip"
+        },
+        "description": {
+            "en": "Visual showcase for Tulip brand.",
+            "ar": "عرض بصري لعلامة Tulip."
+        },
+        "images": [
+            "logo/tulip/tulip logo.png",
+            "logo/tulip/tulip_business_cards.png",
+            "logo/tulip/tulip_cake_packaging.png",
+            "logo/tulip/tulip_coffee_cup_bag.png",
+            "logo/tulip/tulip_cupcake_box.png",
+            "logo/tulip/tulip_gift_card.png",
+            "logo/tulip/tulip_mobile_app.png",
+            "logo/tulip/tulip_staff_apparel.png",
+            "logo/tulip/tulip_storefront.png"
+        ],
+        "displayType": "standard",
+        "detailsType": "showcase",
+        "featured": false
+    },
+    {
+        "id": "verde-branding",
+        "category": ["branding", "logos"],
+        "title": {
+            "en": "Verde Branding",
+            "ar": "هوية Verde"
+        },
+        "description": {
+            "en": "Complete branding guidelines for Verde.",
+            "ar": "دليل الهوية الكامل لـ Verde."
+        },
+        "images": [
+            "logo/verde/verde-logo.png",
+            "logo/verde/verde-guideline .png"
+        ],
+        "displayType": "standard",
+        "detailsType": "guideline",
+        "featured": false
+    },
+    {
+        "id": "zeekr-print",
+        "category": ["print"],
+        "title": {
+            "en": "Zeekr Brochure",
+            "ar": "بروشور Zeekr"
+        },
+        "description": {
+            "en": "Premium brochure design for Zeekr.",
+            "ar": "تصميم بروشور فاخر لـ Zeekr."
+        },
+        "images": [
+            "zeekr/zeekr_mockup_coffee_table.png",
+            "zeekr/zeekr_brochure_inside.png",
+            "zeekr/zeekr_final_hero_sunset.png",
+            "zeekr/zeekr_magazine_spread_1.png",
+            "zeekr/zeekr_mockup_desk_spread.png",
+            "zeekr/zeekr_mockup_showroom.png"
+        ],
+        "displayType": "standard",
+        "detailsType": "showcase",
+        "featured": false
+    },
+    {
+        "id": "learn-ui",
+        "category": ["ui"],
+        "title": {
+            "en": "Learn UI",
+            "ar": "تعلم واجهات المستخدم"
+        },
+        "description": {
+            "en": "User interface design for learning platform.",
+            "ar": "تصميم واجهة مستخدم لمنصة تعليمية."
+        },
+        "images": [
+            "ui/learn-ui.png"
+        ],
+        "displayType": "standard",
+        "detailsType": "standard",
+        "featured": false
+    },
+    {
+        "id": "programming-icons",
+        "category": ["icons"],
+        "title": {
+            "en": "Programming Icons",
+            "ar": "أيقونات برمجة"
+        },
+        "description": {
+            "en": "A set of custom designed programming and coding icons.",
+            "ar": "مجموعة من الأيقونات المصممة خصيصاً للبرمجة والأكواد."
+        },
+        "images": [
+            "icon/21_coder_icons_grid.png",
+            "icon/01_code_brackets.png",
+            "icon/02_bug_hunter.png",
+            "icon/03_debugging.png",
+            "icon/04_dark_mode.png",
+            "icon/17_hot_fix.png"
+        ],
+        "displayType": "standard",
+        "detailsType": "showcase",
+        "featured": false
+    },
+    {
+        "id": "c2c-social",
+        "category": ["social"],
+        "title": {
+            "en": "Challenge to Change",
+            "ar": "تحدي التغيير (C2C)"
+        },
+        "description": {
+            "en": "Social media campaign and brand awareness for Challenge to Change.",
+            "ar": "حملة التواصل الاجتماعي والتواصل البصري لمبادرة تحدي التغيير."
+        },
+        "images": [
+            "c2c/c2c.png",
+            "c2c/post_01.png",
+            "c2c/post_02.png",
+            "c2c/post_03.png",
+            "c2c/post_04.png",
+            "c2c/post_05.png",
+            "c2c/post_06.png",
+            "c2c/post_07.png",
+            "c2c/post_08.png",
+            "c2c/post_09.png",
+            "c2c/post_10.png"
+        ],
+        "displayType": "standard",
+        "detailsType": "showcase",
+        "featured": false
+    },
+    {
+        "id": "s-ui-design",
+        "category": ["ui"],
+        "title": {
+            "en": "S.UI Mobile Design",
+            "ar": "تصميم واجهات S.UI"
+        },
+        "description": {
+            "en": "Modern and intuitive mobile user interface design.",
+            "ar": "تصميم واجهات مستخدم حديثة وسهلة الاستخدام."
+        },
+        "images": [
+            "ui/s.ui.jpeg"
+        ],
+        "displayType": "standard",
+        "detailsType": "standard",
+        "featured": false
+    }
 ];
